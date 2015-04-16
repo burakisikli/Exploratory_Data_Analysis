@@ -9,9 +9,6 @@ Question 1
 ----------
 Under the lattice graphics system, what do the primary plotting functions like xyplot() and bwplot() return?
 
-### Answer
-an object of class "trellis"
-
 ### Explanation
     
     > library(nlme)
@@ -19,6 +16,9 @@ an object of class "trellis"
     > plot <- xyplot(weight ~ Time | Diet, BodyWeight)
     > class(plot)
     [1] "trellis"
+
+### Answer
+an object of class "trellis"
     
     
 Question 2
